@@ -2,7 +2,7 @@
 
 **AeroStage Beta** is a five-level headphone spatial-texture VST3 plug-in for Windows.
 
-This beta is intended for listening feedback. It is not virtual surround, not Dolby-style spatial audio, and not an HRTF/externalization simulator. It does not place sound sources outside your head or push them into the room. The goal is subtler: to change the *spatial texture* of headphone playback—-mkaing instruments sound diffused, blooming, and relaxed, while keeping timbre accuracy in normal two-channel music playback.
+This beta is intended for listening feedback. It is not virtual surround, not Dolby-style spatial audio, and not an HRTF/externalization simulator. It does not place sound sources outside your head or push them into the room. The goal is subtler: to change the *spatial texture* of headphone playback—-making instruments sound more diffused, blooming, and relaxed, while keeping timbre accuracy in normal two-channel music playback.
 
 ## Download
 
@@ -42,7 +42,7 @@ Detailed instructions are in [`INSTALL_FOOBAR.md`](INSTALL_FOOBAR.md).
 | 1 | Transparent / Fatigue reducer | Mildest crossfeed and spatial processing, almost transparent. Greatly reduces fatigue during extended listening. |
 | 2 | Diffuse | Moderate spatial diffusion and depth. A useful everyday spatial-texture setting. |
 | 3 | Atmosphere | Stronger sense of ambience and relaxed spatial density, almost loudspeaker-like. |
-| 4 | Concert | Most spacious and colored setting. Intended for a more hall-like, concert-style presentation, esepcially suitable for classical music. |
+| 4 | Concert | Most spacious and colored setting. Intended for a more hall-like, concert-style presentation, especially suitable for classical music. |
 
 
 ## Known limitations
