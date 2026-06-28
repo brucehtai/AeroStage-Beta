@@ -2,7 +2,7 @@
 
 **AeroStage Beta** is a five-level headphone spatial-texture VST3 plug-in for Windows.
 
-This beta is intended for listening feedback. It is not virtual surround, not Dolby-style spatial audio, and not an HRTF/externalization simulator. The goal is subtler: to change the *spatial texture* of headphone playback—how dense, diffuse, relaxed, or speaker-like the stereo field feels—while keeping normal two-channel music playback.
+This beta is intended for listening feedback. It is not virtual surround, not Dolby-style spatial audio, and not an HRTF/externalization simulator. It does not place sound sources outside your head or push them into the room. The goal is subtler: to change the *spatial texture* of headphone playback—-mkaing instruments sound diffused, blooming, and relaxed, while keeping timbre accuracy in normal two-channel music playback.
 
 ## Download
 
@@ -38,33 +38,17 @@ Detailed instructions are in [`INSTALL_FOOBAR.md`](INSTALL_FOOBAR.md).
 
 | Level | Name | Description |
 |---:|---|---|
-| 0 | Bypass / Reference | Gain-matched reference level for comparison. Minimal processing. |
-| 1 | Transparent / Fatigue reducer | Mildest processing. Intended to reduce headphone fatigue while staying close to the original tonal balance. |
+| 0 | Bypass / Reference | Gain-matched reference level for comparison. No spatial processing. |
+| 1 | Transparent / Fatigue reducer | Mildest crossfeed and spatial processing, almost transparent. Greatly reduces fatigue during extended listening. |
 | 2 | Diffuse | Moderate spatial diffusion and depth. A useful everyday spatial-texture setting. |
-| 3 | Atmosphere | Stronger sense of ambience and relaxed spatial density. More obviously processed than Level 2. |
-| 4 | Concert | Most spacious and colored setting. Intended for a more hall-like, concert-style presentation. Best suited to some recordings rather than all music. |
+| 3 | Atmosphere | Stronger sense of ambience and relaxed spatial density, almost loudspeaker-like. |
+| 4 | Concert | Most spacious and colored setting. Intended for a more hall-like, concert-style presentation, esepcially suitable for classical music. |
 
-## Suggested feedback
-
-When posting impressions, please include:
-
-- Headphone model
-- DAC/amp or audio interface
-- foobar2000 output mode, if known
-- Music used for testing
-- Favorite level overall
-- Best level for spatial texture
-- Best level for tonal naturalness
-- Best level for long listening / fatigue
-- Any clipping, instability, or loading problems
-
-A copyable feedback form is in [`FEEDBACK_TEMPLATE.md`](FEEDBACK_TEMPLATE.md).
 
 ## Known limitations
 
 - Windows VST3 beta only.
 - The GUI is intentionally simple.
-- Some hot online material may still clip depending on source level and playback chain. Lower foobar2000 or system volume if needed.
 - The plug-in is for two-channel headphone listening. Speaker use is not the current target.
 
 ## Files in this release kit
