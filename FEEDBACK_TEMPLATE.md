@@ -16,11 +16,12 @@ Best tonal naturalness:
 Least fatiguing:
 Any clipping or technical problem:
 
-Level 0 - Bypass / Reference:
-Level 1 - Transparent / Fatigue reducer:
-Level 2 - Diffuse:
-Level 3 - Atmosphere:
-Level 4 - Concert:
+0  Reference / Bypass:
+2  Comfort neutral:
+4  Diffusion width:
+6  Diffusion bloom:
+8  Atmosphere relaxed:
+10 Concert intimate:
 
 Short ranking for spatial texture:
 Short ranking for everyday use:
