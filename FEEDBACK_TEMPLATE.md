@@ -11,17 +11,17 @@ Output mode, if known:
 Music tested:
 
 Overall favorite level:
-Best spatial texture:
 Best tonal naturalness:
+Best spatial texture:
 Least fatiguing:
 Any clipping or technical problem:
 
-0  Reference / Bypass:
-2  Comfort neutral:
-4  Diffusion width:
-6  Diffusion bloom:
-8  Atmosphere relaxed:
-10 Concert intimate:
+Level 0 - Reference / Bypass:
+Level 1 - Comfort:
+Level 2 - Diffusion:
+Level 3 - Bloom:
+Level 4 - Atmosphere:
+Level 5 - Concert:
 
 Short ranking for spatial texture:
 Short ranking for everyday use:

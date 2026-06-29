@@ -2,11 +2,11 @@
 
 **AeroStage Beta** is a six-level headphone spatial-texture VST3 plug-in for Windows.
 
-It is intended for normal two-channel headphone listening with ordinary stereo recordings. It is not virtual surround, not Dolby-style spatial audio, and not an HRTF externalization simulator. The goal is subtler: changing the spatial texture of headphone playback, including diffusion, density, depth, and long-listening comfort.
+It is intended for normal two-channel headphone listening with ordinary stereo recordings. It is not virtual surround, not Dolby-style spatial audio, and not an HRTF externalization simulator. The goal is subtler: changing the spatial texture of headphone playback, including diffusion, density, depth, bloom, atmosphere, and long-listening comfort.
 
 ## Download
 
-Use the release asset:
+Use the latest GitHub release asset:
 
 ```text
 AeroStageBeta-v0.2.0-beta-win64-vst3.zip
@@ -23,12 +23,12 @@ AeroStageBeta-v0.2.0-beta-win64-vst3.zip
 
 | Button | Name | Intended use |
 |---:|---|---|
-| 0 | Reference / Bypass | Gain-matched reference for comparison. No spatial processing. |
-| 1 | Comfort | Almost transparent, everyday fatigue reduction. |
-| 2 | Diffusion | Adds lateral diffusion and width. |
-| 3 | Bloom | Spatial bloom around sound sources. |
-| 4 | Atmosphere | Loudspeaker-like spatial texture that resembles room ambience. |
-| 5 | Concert | Stronger concert-like spatial presentation, designed for classical music. |
+| 0 | Reference / Bypass | Gain-matched reference for comparison. Minimal processing. |
+| 1 | Comfort | The mildest spatial setting. Intended for relaxed everyday listening and fatigue reduction. |
+| 2 | Diffusion | Adds lateral diffusion and width while staying broadly natural. |
+| 3 | Bloom | Adds more spatial bloom and density around sound sources. |
+| 4 | Atmosphere | Stronger ambience-like spatial texture and a more relaxed presentation. |
+| 5 | Concert | Strongest public-beta setting, intended for a more hall-like presentation. |
 
 ## Installation
 
@@ -42,5 +42,29 @@ Short version:
 4. Add the VST adapter in foobar2000 DSP Manager.
 5. Select AeroStage Beta and choose one of the six levels.
 
-## Note
-Buttons 1-5 in this release corresponds to AeroStage 2, 4, 6, 8, and 10 in a more complete package tentatively named AeroStage Pro. 
+## Feedback
+
+A copyable feedback form is in [`FEEDBACK_TEMPLATE.md`](FEEDBACK_TEMPLATE.md).
+
+Useful feedback includes:
+
+- headphone model
+- DAC/amp or audio interface
+- music used for testing
+- favorite level
+- best level for tonal naturalness
+- best level for spatial texture
+- least fatiguing level
+- any clipping, loading, or host problems
+
+## Known limitations
+
+- Windows VST3 beta only.
+- The plug-in is for two-channel headphone listening.
+- Speaker playback is not the current target.
+- The GUI is intentionally simple and shows only real available controls.
+- Some hosts may require rescanning the VST3 folder after updating the plug-in.
+
+## Project status
+
+This is a public beta build. The 13-level AeroStage Pro version is a separate extended/audiophile evaluation build.
