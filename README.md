@@ -68,3 +68,4 @@ Useful feedback includes:
 ## Project status
 
 This is a public beta build. The 13-level AeroStage Pro version is a separate extended/audiophile evaluation build.
+The bottons 1-5 in this release correspond to AeroStage 2, 4, 6, 8, 10 in the Pro version. 
