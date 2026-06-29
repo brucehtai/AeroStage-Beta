@@ -24,11 +24,11 @@ AeroStageBeta-v0.2.0-beta-win64-vst3.zip
 | Button | Name | Intended use |
 |---:|---|---|
 | 0 | Reference / Bypass | Gain-matched reference for comparison. Minimal processing. |
-| 1 | Comfort | The mildest spatial setting. Intended for relaxed everyday listening and fatigue reduction. |
+| 1 | Comfort | The mildest spatial setting. Everyday listening and fatigue reduction. |
 | 2 | Diffusion | Adds lateral diffusion and width while staying broadly natural. |
 | 3 | Bloom | Adds more spatial bloom and density around sound sources. |
-| 4 | Atmosphere | Stronger ambience-like spatial texture and a more relaxed presentation. |
-| 5 | Concert | Strongest public-beta setting, intended for a more hall-like presentation. |
+| 4 | Atmosphere | Stronger ambience-like spatial texture and loudspeaker-like presentation. |
+| 5 | Concert | Strongest setting, intended for a more hall-like presentation. |
 
 ## Installation
 
