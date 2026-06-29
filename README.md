@@ -21,14 +21,14 @@ AeroStageBeta-v0.2.0-beta-win64-vst3.zip
 
 ## Levels
 
-| Button | AeroStage level | Name | Intended use |
-|---:|---:|---|---|
-| 0 | 0 | Reference / Bypass | Gain-matched reference for comparison. No spatial processing. |
-| 1 | 2 | Comfort | Almost transparent, everyday fatigue reduction. |
-| 2 | 4 | Diffusion | Adds lateral diffusion and width. |
-| 3 | 6 | Bloom | Spatial bloom around sound sources. |
-| 4 | 8 | Atmosphere | Loudspeaker-like spatial texture that resembles room ambience. |
-| 5 | 10 | Concert | Stronger concert-like spatial presentation, designed for classical music. |
+| Button | Name | Intended use |
+|---:|---|---|
+| 0 | Reference / Bypass | Gain-matched reference for comparison. No spatial processing. |
+| 1 | Comfort | Almost transparent, everyday fatigue reduction. |
+| 2 | Diffusion | Adds lateral diffusion and width. |
+| 3 | Bloom | Spatial bloom around sound sources. |
+| 4 | Atmosphere | Loudspeaker-like spatial texture that resembles room ambience. |
+| 5 | Concert | Stronger concert-like spatial presentation, designed for classical music. |
 
 ## Installation
 
@@ -42,3 +42,5 @@ Short version:
 4. Add the VST adapter in foobar2000 DSP Manager.
 5. Select AeroStage Beta and choose one of the six levels.
 
+## Note
+Buttons 1-5 in this release corresponds to AeroStage 2, 4, 6, 8, and 10 in a more complete package tentatively named AeroStage Pro. 
