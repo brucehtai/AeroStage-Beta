@@ -2,7 +2,7 @@
 
 **AeroStage Beta** is a six-level headphone spatial-texture VST3 plug-in for Windows.
 
-It is intended for normal two-channel headphone listening. It is not virtual surround, not Dolby-style spatial audio, and not an HRTF externalization simulator. The goal is subtler: changing the spatial texture of headphone playback, including diffusion, density, depth, and long-listening comfort.
+It is intended for normal two-channel headphone listening with ordinary stereo recordings. It is not virtual surround, not Dolby-style spatial audio, and not an HRTF externalization simulator. The goal is subtler: changing the spatial texture of headphone playback, including diffusion, density, depth, and long-listening comfort.
 
 ## Download
 
@@ -23,12 +23,12 @@ AeroStageBeta-v0.2.0-beta-win64-vst3.zip
 
 | Button | AeroStage level | Name | Intended use |
 |---:|---:|---|---|
-| 0 | 0 | Reference / Bypass | Gain-matched reference for comparison. |
-| 1 | 2 | Comfort neutral | Mild, natural, everyday fatigue reduction. |
-| 2 | 4 | Diffusion width | Adds lateral diffusion and width. |
-| 3 | 6 | Diffusion bloom | Fuller diffusion and spatial bloom. |
-| 4 | 8 | Atmosphere relaxed | More relaxed ambience and spatial density. |
-| 5 | 10 | Concert intimate | Stronger concert-like spatial presentation. |
+| 0 | 0 | Reference / Bypass | Gain-matched reference for comparison. No spatial processing. |
+| 1 | 2 | Comfort | Almost transparent, everyday fatigue reduction. |
+| 2 | 4 | Diffusion | Adds lateral diffusion and width. |
+| 3 | 6 | Bloom | Spatial bloom around sound sources. |
+| 4 | 8 | Atmosphere | Loudspeaker-like spatial texture that resembles room ambience. |
+| 5 | 10 | Concert | Stronger concert-like spatial presentation, designed for classical music. |
 
 ## Installation
 
@@ -42,19 +42,3 @@ Short version:
 4. Add the VST adapter in foobar2000 DSP Manager.
 5. Select AeroStage Beta and choose one of the six levels.
 
-## Feedback requested
-
-Please report:
-
-- headphone model
-- DAC/amp or audio interface
-- music used for testing
-- favorite level
-- best level for natural tone
-- best level for spatial texture
-- best level for long listening comfort
-- any clipping, loading, or host problems
-
-## AeroStage Pro
-
-This public beta contains six levels selected for most music listeners. A larger AeroStage Pro version with the full level set can be kept as a premium/audiophile edition.
